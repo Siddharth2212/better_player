@@ -514,17 +514,6 @@ class _BetterPlayerCupertinoControlsState
           else
             const SizedBox(),
           const Spacer(),
-          if (_controlsConfiguration.enableMute)
-            _buildMuteButton(
-              _controller,
-              backgroundColor,
-              iconColor,
-              barHeight,
-              iconSize,
-              buttonPadding,
-            )
-          else
-            const SizedBox(),
           const SizedBox(
             width: 4,
           ),
